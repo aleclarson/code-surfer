@@ -5352,6 +5352,18 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
+code-surfer@^0.5.5, code-surfer@^0.6.0:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/code-surfer/-/code-surfer-0.5.5.tgz#223c7177de6f3a645a4bdfc17515d524ad88e038"
+  integrity sha512-ZjGTuyC0hwq16C3WgUfOV6wJ4z5GQLBqN9enUaA0SuRDK//Z2f9BdQVVTyDh7O0/cJ0NRJsH9LJbrwVx+fruhA==
+  dependencies:
+    glamor "^2.20.40"
+    prism-react-renderer "^0.1.3"
+
+"code-surfer@link:packages/mdx-deck-code-surfer/.yalc/@alloc/code-surfer":
+  version "0.0.0"
+  uid ""
+
 codemirror@^5.40.0:
   version "5.45.0"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.45.0.tgz#db5ebbb3bf44028c684053f3954d011efcec27ad"
@@ -11810,6 +11822,14 @@ mdurl@^1.0.1:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
+mdx-deck-code-surfer@^0.6.0:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/mdx-deck-code-surfer/-/mdx-deck-code-surfer-0.5.5.tgz#28fd2c2ea728ffdeac096228a9aa9d0643161cc2"
+  integrity sha512-yKhLue+xdnY6HqXbj/lFsO400h2EmPaaQ8hmuIiB29fG387jMiwDY8yGOlZIhJPFdJDRmmInSOXt6lhmVkk5uw==
+  dependencies:
+    code-surfer "^0.5.5"
+    memoize-one "^4.0.2"
+
 mdx-deck@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-2.0.5.tgz#88170bc4e7d36d6e959620cb1f50c32d073daade"
@@ -14439,7 +14459,7 @@ prop-types@15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@>=15.0.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -14988,7 +15008,7 @@ react-router-hash-link@^1.2.0:
   dependencies:
     prop-types "^15.6.0"
 
-"react-router-scroll@github:ytase/react-router-scroll#build":
+react-router-scroll@ytase/react-router-scroll#build:
   version "0.4.1"
   resolved "https://codeload.github.com/ytase/react-router-scroll/tar.gz/c95a900d58c70f4ae3852511cd9f517bc2ede39d"
   dependencies:

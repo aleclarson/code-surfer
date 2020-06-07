@@ -5,10 +5,6 @@
   "license": "MIT",
   "author": "pomber",
   "repository": "https://github.com/pomber/code-surfer",
-  "workspaces": [
-    "{packages,fixtures}/*",
-    "website"
-  ],
   "scripts": {
     "build": "lerna run build --ignore website",
     "build:packages": "lerna run build --no-private",
